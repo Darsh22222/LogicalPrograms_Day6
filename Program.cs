@@ -1,4 +1,6 @@
-﻿namespace LogicalProgram
+﻿using System.Diagnostics;
+
+namespace LogicalProgram
 {
     class Program
     {
@@ -8,7 +10,9 @@
             //FibonacciSeries.DisplayFibonacciSeries();
             //PerfectNumber.checkPerfectNumber();
             //PrimeNumber.CheckPrimeNumber();
-            ReverseNumber.FindReverseNumber();
+            //ReverseNumber.FindReverseNumber();
+            StopWatch.Calculate();
+
         }
     }
 }
